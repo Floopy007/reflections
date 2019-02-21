@@ -3,7 +3,7 @@ from django.template import loader
 # Create your views here.
 from django.http import HttpResponse
 from .models import Question
-
+#commentar test 21.09.2019 16:10
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
     #output = ', '.join([q.question_text for q in latest_question_list])
