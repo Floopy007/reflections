@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
-    zidha test
+    zidha test and this ist new
+    i want to addit and commit
 ]
